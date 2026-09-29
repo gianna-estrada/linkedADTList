@@ -108,4 +108,22 @@ public class ReferenceBasedList {
 		}
 	}
 	
+	// Finds what's the longest String object in list
+	public String listLongest() {
+		String currItem;
+		String currLongest = "";
+		for(Node curr = head; curr != null; curr = curr.getNext()) {
+			// Gets item and turns it into a String
+			// since the items are of class Object
+			currItem = String.valueOf(curr.getItem());
+			
+			// Compares currItem with currLongest and
+			// overrides currLongest if currItem is more long
+			if(currItem.length() > currLongest.length()) {
+				currLongest = currItem;
+			}
+		}
+		return currLongest;
+	}
+	
 }
