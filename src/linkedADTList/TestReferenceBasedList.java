@@ -19,16 +19,14 @@ public class TestReferenceBasedList {
 		
 		System.out.println(list.get(1));
 		
-		/*
-		 * Gives a NullPointer exception?
 		list.remove(1);
+		list.add(1, "Huh");
 		
 		System.out.println(list.get(1));
-		*/
 		
 		list.removeAll();
 		
 		System.out.println("Is the list empty now?: " + list.isEmpty());
-
+		
 	}
 }
