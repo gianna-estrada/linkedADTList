@@ -99,6 +99,13 @@ public class ReferenceBasedList {
 		numItems = 0;
 	}
 	
-	// 
+	// Prints out items in list
+	public void displayList() {
+		// Goes through list until the it reaches a null
+		// value for the node
+		for(Node curr = head; curr != null; curr = curr.getNext()) {
+			System.out.print(curr.getItem() + " ");
+		}
+	}
 	
 }

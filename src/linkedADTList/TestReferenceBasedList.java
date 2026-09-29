@@ -4,29 +4,15 @@ public class TestReferenceBasedList {
 	
 	public static void main(String[] args) {
 		ReferenceBasedList list = new ReferenceBasedList();
-		
-		System.out.println("Is the list empty?: " + list.isEmpty());
-		
+				
 		list.add(1, "Hello");
 		list.add(2, "Lovely");
 		list.add(3, "World");
+		list.add(4, "How");
+		list.add(5, "Are");
+		list.add(6, "You");
 		
-		System.out.println("How many in list?: " + list.size());
-		
-		System.out.println(list.get(1));
-		
-		list.add(1, "Yellow");
-		
-		System.out.println(list.get(1));
-		
-		list.remove(1);
-		list.add(1, "Huh");
-		
-		System.out.println(list.get(1));
-		
-		list.removeAll();
-		
-		System.out.println("Is the list empty now?: " + list.isEmpty());
+		list.displayList();
 		
 	}
 }
