@@ -1,0 +1,29 @@
+commit ceb7b111b12fe847511da748bebc1dfc8e771438
+Author: Gianna <B00173954@mytudublin.ie>
+Date:   Tue Sep 29 15:54:06 2026 +0100
+
+    Completed Step 3 - create and call listLongest() method
+
+commit ad2365e980d1b24a0b44ade691ecf2acddccea6a
+Author: Gianna <B00173954@mytudublin.ie>
+Date:   Tue Sep 29 15:30:20 2026 +0100
+
+    Completed Step 2 - create & call displayList() method
+
+commit 2d0b34351dc1074fa3760e9beb85ce578d7db80b
+Author: Gianna <B00173954@mytudublin.ie>
+Date:   Tue Sep 29 14:43:08 2026 +0100
+
+    get() after using remove() then add() makes it work (Step 1 complete)
+
+commit fd2cc6ebbc87fe45a2dd5ae08fcc06782208e799
+Author: Gianna <B00173954@mytudublin.ie>
+Date:   Tue Sep 29 14:33:03 2026 +0100
+
+    Completed Step 1 - Test all methods (remove() not functioning?)
+
+commit 876404bd5f4a8228426cc39eb77ae869511b1576
+Author: Gianna <B00173954@mytudublin.ie>
+Date:   Tue Sep 29 13:13:55 2026 +0100
+
+    Test commit
